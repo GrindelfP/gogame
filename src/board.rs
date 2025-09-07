@@ -6,8 +6,8 @@ pub struct Board {
 }
 
 impl Board {
-    pub(crate) fn new(width: u8, height: u8) -> Board {
-        Board {
+    pub(crate) fn new(width: u8, height: u8) -> Self {
+        Self {
             width,
             height,
             elements: vec![vec![0; width as usize]; height as usize],
