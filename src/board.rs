@@ -1,4 +1,5 @@
 #[derive(Debug)]
+/// aaa
 pub struct Board {
     width: u8,
     height: u8,

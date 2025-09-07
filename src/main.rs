@@ -1,6 +1,8 @@
 use crate::board::Board;
 
 mod board;
+mod game;
+mod utils;
 
 fn main() {
     let mut board: Board = Board::new(2, 2);
