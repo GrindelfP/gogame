@@ -1,0 +1,4 @@
+= Go Game =
+
+== Description ==
+An engine for the Go game.
